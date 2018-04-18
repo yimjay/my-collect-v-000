@@ -4,9 +4,6 @@ def my_collect(collection)
     yield collection[i]
     i += 1
   end
-  collection.each do |word|
-    word.upcase
-  end
 end
 
   
